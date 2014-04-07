@@ -6,3 +6,5 @@ describe("My Converter", function() {
         expect(function() {Converter.convertFromPoundsToKIlo("hello")}).toThrow(new Error("Not a number"))
     })
 })
+
+
